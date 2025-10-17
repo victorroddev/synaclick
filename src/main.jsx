@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
 import HomePage from './pages/HomePage.jsx';
+import Invo from './pages/Invo.jsx';
 
 const router = createBrowserRouter(([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter(([
       {
         index: true,
         element: <HomePage />
+      },
+      {
+        path: 'invo-dental',
+        element: <Invo />
       }
     ]
   }

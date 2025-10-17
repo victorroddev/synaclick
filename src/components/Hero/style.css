@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     color: white;
+    margin: 0 auto;
 }
 
 .hero-text-main{
@@ -9,12 +10,15 @@
     font-weight: bold;
     font-weight: normal;
     margin-bottom: 10rem;
+    text-align: center;
+
 }
 
 .syna-text{
     font-family: 'sora';
     font-weight: bold;
     font-size: 3rem;
+    text-align: center;
 }
 
 .hero-container{
@@ -23,11 +27,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to bottom, #1a1c52, #00000c)
 }
 
-.hero-text-main a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    
+.growy-text{
+    text-align: center;
+    font-family: 'sora';
 }
+
+.growy-text a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
