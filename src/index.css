@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #1a1c52, #00000c  );
+}
+
+
+@font-face {
+  font-family: 'sora';
+  src: url('/src/assets/fonts/Sora-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sora';
+  src: url('/src/assets/fonts/Sora-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('/src//assets/fonts/Raleway-Light.ttf');
+  font-weight: light;
+  font-style: normal;
+}
