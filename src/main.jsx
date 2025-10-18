@@ -18,7 +18,7 @@ const router = createBrowserRouter(([
         element: <HomePage />
       },
       {
-        path: 'test',
+        path: 'invo-dental',
         element: <Invo />
       }
     ]
